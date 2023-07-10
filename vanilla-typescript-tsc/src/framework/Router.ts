@@ -9,9 +9,9 @@ import {
 	Metadata,
 	ParameterInfo
 }                               from "rttist";
-import { route }                from "./controllers/decorators/route";
-import { IController }          from "./controllers/IController";
-import { IPathParameterParser } from "./controllers/IPathParameterParser";
+import { route }                from "./controllers/decorators/route.js";
+import { IController }          from "./controllers/IController.js";
+import { IPathParameterParser } from "./controllers/IPathParameterParser.js";
 
 export class Router
 {

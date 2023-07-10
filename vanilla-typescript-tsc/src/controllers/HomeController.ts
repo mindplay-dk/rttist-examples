@@ -1,5 +1,5 @@
-import { route }       from "../framework/controllers/decorators/route";
-import { IController } from "../framework/controllers/IController";
+import { route }       from "../framework/controllers/decorators/route.js";
+import { IController } from "../framework/controllers/IController.js";
 
 @route("/")
 export class UserController implements IController

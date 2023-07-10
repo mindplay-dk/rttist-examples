@@ -1,6 +1,6 @@
 import { Server }                  from "hyper-express";
-import { BasePathParameterParser } from "./controllers/BasePathParameterParser";
-import { Router }                  from "./Router";
+import { BasePathParameterParser } from "./controllers/BasePathParameterParser.js";
+import { Router }                  from "./Router.js";
 
 export class Application
 {

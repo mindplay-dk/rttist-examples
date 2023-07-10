@@ -1,5 +1,5 @@
 import { Type }                 from "rttist";
-import { IPathParameterParser } from "./IPathParameterParser";
+import { IPathParameterParser } from "./IPathParameterParser.js";
 
 export class BasePathParameterParser implements IPathParameterParser
 {

@@ -1,6 +1,6 @@
-import 'rttist/typelib'; // TODO remove this: a future version of rttist will inject this automatically
+import 'rttist/typelib/index.js'; // TODO remove this: a future version of rttist will inject this automatically
 
-import { Application } from "./framework/Application";
+import { Application } from "./framework/Application.js";
 
 new Application()
 	.run({ port: 8080 })
